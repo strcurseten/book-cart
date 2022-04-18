@@ -17,7 +17,8 @@
     <ul class="list-unstyled">
     <!-- 1. Display all the reserved books -->
         @foreach ($books as $book)
-        <li>{{ $book }}</li>
+            <li>{{ $book }}</li>
+        @endforeach
     </ul>
 
 </div>
