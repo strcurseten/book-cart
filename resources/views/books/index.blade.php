@@ -15,7 +15,7 @@
     <h1>Enter your complete name</h1>
 
     <!-- 1. point to the appropriate form handler with the proper HTTP request method -->
-    <form action="/select-books" method="GET">
+    <form action="/register-user" method="POST">
     <!-- 2. add the cross site request forgery blade tag here -->
     @csrf
 

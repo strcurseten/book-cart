@@ -22,7 +22,7 @@
         <input class="form-check-input" type="checkbox" name="books[]" value="{{ $book['code'] }}">
         <label class="form-check-label">
             <!-- 2. Display the Book TITLE, AUTHOR, and YEAR PUBLISHED -->
-            <strong>{{ $book }}</strong> by {{ $author }}, {{ $year_published }}
+            <strong>{{ $book['title'] }}</strong> by {{ $book['author'] }}, {{ $book['year_published'] }}
         </label>
     </div>
     @endforeach

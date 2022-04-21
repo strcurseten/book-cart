@@ -14,7 +14,7 @@ Route::post('/register-user', [BooksController::class, 'saveCompleteName']);
 Route::get('/select-books', [BooksController::class, 'listBooks']);
 
 // 4. Specify the missing HTTP request method
-Route::get('/reserve-books', [BooksController::class, 'reserveBooks']);
+Route::post('/reserve-books', [BooksController::class, 'reserveBooks']);
 
  // 5. Specify the missing endpoint that will be used for displaying the thank you page
 Route::get('/thank-you', [BooksController::class, 'showThankYouPage']);
